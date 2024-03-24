@@ -15,7 +15,7 @@ container> make REALBUILD=1
 You can then copy the firmware image to the host by running:
 
 ```
-docker cp wp34s-builder:/wp/trunk/realbuild/calc.bin .
+host> docker cp wp34s-builder:/wp/trunk/realbuild/calc.bin .
 ```
 
 
